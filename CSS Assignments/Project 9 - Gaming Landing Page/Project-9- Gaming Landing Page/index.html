@@ -4,324 +4,296 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Gaming Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
   </head>
   <body>
-    <div class="hero-background">
-      <header>
-        <nav>
-          <img src="./assets/Icons/Logo.svg" alt="logo" />
-          <ul class="nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Categories</a></li>
-            <li><a href="">How it works</a></li>
-            <li><a href="">Pricing</a></li>
+    <div class="header">
+      <div class="container">
+        
+        <!-- Navbar Section -->
+        <nav class="nav">
+          <img src="./assets/Icons/Logo.svg" alt="" />
+          <ul class="list">
+            <li><a class="list-item" href="#">Home</a></li>
+            <li><a class="list-item" href="#">Categories</a></li>
+            <li><a class="list-item" href="#">How it works</a></li>
+            <li><a class="list-item" href="#">Pricing</a></li>
           </ul>
-          <div class="nav-buttons">
-            <button id="sign-in"><a href="">Sign In</a></button>
-            <button id="sign-up"><a href="">Sign Up</a></button>
+          <div class="btn-group-1">
+            <a class="signin" href="#">Sign In</a>
+            <a class="signup" href="#">Sign Up</a>
           </div>
         </nav>
-      </header>
-      <section class="hero">
-        <div class="hero-left">
-          <h1 class="heading">
-            Play Game Every time <br />
-            Always be Winner <br />
-            And strong
-          </h1>
-          <p class="description">
-            Improve your gaming skills by playing games that are currently
-            popular so that you don't go out of style improve skills
-          </p>
-          <div class="hero-buttons">
-            <button class="bg-orange"><a href="">Get Started</a></button>
-            <button class="bg-inherit"><a href="">Learn More</a></button>
-          </div>
-        </div>
-        <div class="hero-right">
-          <div class="hero-play">
-            <img
-              id="play-button"
-              src="./assets/Icons/playButton.svg"
-              alt="play"
-            />
-          </div>
-          <div>
-            <img id="dash-img" src="./assets/Icons/dash.svg" alt="" />
-            <p class="play-description">
-              The King of Terania And Last Season XXIV
+
+        <!-- Hero Section -->
+        <header class="hero-section">
+          <div class="hero-content">
+            <h1>Play Game Everytime <br />Always Be Winner <br />And Strong</h1>
+            <p>
+              Imrove your gaming skills by playing games that are currently
+              <br />popular so that yo don't go out of style improve skills.
             </p>
-            <img
-              id="rightarrow-img"
-              src="./assets/Icons/rightArrow.svg"
-              alt=""
-            />
+            <div class="btn-group-2">
+              <a class="get-started" href="#">Get Started</a>
+              <a class="learn-more" href="#">Learn more</a>
+            </div>
           </div>
-        </div>
-      </section>
+          <div class="hero-image">
+            <div class="play-button">
+              <img src="./assets/Icons/playButton.svg" alt="" />
+            </div>
+            <div class="image-content">
+              <img class="dash" src="./assets/Icons/dash.svg" alt="" />
+              <h2>The King Of Terania <br />And Last Session <br />XXIV</h2>
+              <img
+                class="right-arrow"
+                src="./assets/Icons/rightArrow.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </header>
+      </div>
     </div>
 
-    <section class="popular-games">
-      <div>
-        <h2 class="heading">The Most Popular Game About Fighting And Wars</h2>
-        <!-- games row -->
-        <div class="games">
-          <!-- card-1 -->
-          <div class="card card-1">
-            <div class="card-description">
-              <div>
-                <p>
-                  The Soldier War <br /><small class="game-category"
-                    >Actions</small
-                  >
-                </p>
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-              </div>
-              <button class="download-btn bg-orange">
-                <a href="">Download</a>
-              </button>
+    <!-- Popular Games Section -->
+    <div class="popular-games">
+      <div class="heading-secondary">
+        <h1>The most Popular Game About <br />Fighting And Wars</h1>
+      </div>
+      <div class="card-section-1">
+        <div class="card--1">
+          <div class="card-detail-1">
+            <div class="card-content">
+              <h3>The Soldier War</h3>
+              <p>Actions</p>
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
             </div>
+            <a class="download-btn">Download</a>
           </div>
-
-          <!-- card-2 -->
-          <div class="card card-2">
-            <div class="card-description">
-              <div>
-                <p>
-                  The Warriors IX <br /><small class="game-category"
-                    >Actions</small
-                  >
-                </p>
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-              </div>
-              <button class="download-btn bg-orange">
-                <a href="">Download</a>
-              </button>
+        </div>
+        <div class="card--2">
+          <div class="card-detail-2">
+            <div class="card-content">
+              <h3>The Wariors IX</h3>
+              <p>Actions</p>
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
             </div>
+            <a class="download-btn">Download</a>
           </div>
-
-          <!-- card-3 -->
-          <div class="card card-3">
-            <div class="card-description">
-              <div>
-                <p>
-                  Pubjiken Dak <br /><small class="game-category"
-                    >Actions</small
-                  >
-                </p>
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-              </div>
-              <button class="download-btn bg-orange">
-                <a href="">Download</a>
-              </button>
+        </div>
+        <div class="card--3">
+          <div class="card-detail-3">
+            <div class="card-content">
+              <h3>Pubjiken Dark</h3>
+              <p>Actions</p>
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
             </div>
+            <a class="download-btn">Download</a>
           </div>
-
-          <!-- card-4 -->
-          <div class="card card-4">
-            <div class="card-description">
-              <div>
-                <p>
-                  Garela Menihem <br /><small class="game-category"
-                    >Actions</small
-                  >
-                </p>
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-                <img src="./assets/Icons/Star 1.svg" alt="" />
-              </div>
-              <button class="download-btn bg-orange">
-                <a href="">Download</a>
-              </button>
+        </div>
+        <div class="card--4">
+          <div class="card-detail-4">
+            <div class="card-content">
+              <h3>Garela Menihem</h3>
+              <p>Actions</p>
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
+              <img src="./assets/Icons/Star 1.svg" alt="" />
             </div>
+            <a class="download-btn">Download</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Game Explore -->
-    <section class="game-explore">
-      <div class="explore-left"></div>
-      <div class="explore-right">
-        <h2 class="heading">
-          A War Game That Will Get Your Adrenaline Pumping
-        </h2>
-        <p class="description">
-          This is the best episode that we present you, we collect all over asia
-          and we present it to you only for you, our special customer, this is
-          an episode discussing the design of various types of design
+    <section class="explore-now-section">
+      <div class="explore-image">
+        <img src="./assets/Photos/Rectangle 57.png" alt="" />
+      </div>
+      <div class="explore-content">
+        <h1>A War Game That <br />Will Get Your Adrenaline <br />Pumping</h1>
+        <p>
+          This is the best episode that we present to you, we collect all over
+          <br />asia and we present it to you only for you, our special
+          customer, that is an <br />episode discussing the design of various
+          types of design.
         </p>
-        <div>
-          <button class="bg-orange">
-            <a href="">Explore Now</a>
-          </button>
-          <button class="bg-inherit"><a href="">Learn More</a></button>
+
+        <div class="group-button">
+          <a href="#" class="explore">Explore Now</a>
+          <a href="#" class="learn">Learn More</a>
         </div>
       </div>
     </section>
 
-    <!-- Weekly Recommendations -->
-    <section class="weekly-recommend">
-      <div class="section-top">
-        <h2 class="heading">Game Recommended For Your This Week</h2>
-        <div class="buttons">
-          <button class="bg-orange-light">
+    <!-- Recommendation Section -->
+    <section class="recommended-games">
+      <div class="recommended-heading">
+        <h1>Game Recommended For <br />You This Week</h1>
+        <div class="btn-division">
+          <div class="arrow-left">
             <img src="./assets/Icons/leftArrow.svg" alt="" />
-          </button>
-          <button class="bg-orange">
-            <img src="./assets/Icons/nextArrow.svg" alt="" />
-          </button>
+          </div>
+          <div class="arrow-right">
+            <img src="./assets/Icons/rightArrow.svg" alt="" />
+          </div>
         </div>
       </div>
 
-      <!-- Recommended Games -->
-      <div class="games">
-        <!-- game-1 -->
-        <div class="game">
-          <img src="./assets/Photos/Rectangle 75.png" alt="" />
-          <div>
-            <h3 class="game-heading">The world's strongest human battle</h3>
-            <p class="game-category">Action, Sport</p>
-            <p class="game-description">
-              This is a game about the battle of the strongest humans on earth
+      <div class="recommended-games-grid">
+        <div class="grid-game--1">
+          <div class="grid-game-img-1">
+            <img src="./assets/Photos/Rectangle 75.png" alt="" />
+          </div>
+          <div class="grid-game-content-1">
+            <h3>The world's strongest <br />human battle</h3>
+            <span>Action, Sport</span>
+            <p>
+              This a game about the battle of the <br />strongest humans on
+              earth
             </p>
-            <button class="game-download bg-orange">
-              <a href="">Download</a>
-            </button>
+            <a class="grid-btn" href="#">Download</a>
           </div>
         </div>
-
-        <!-- game-2 -->
-        <div class="game">
-          <img src="./assets/Photos/Rectangle 76.png" alt="" />
-          <div>
-            <h3 class="game-heading">Adventure in snake cave danger</h3>
-            <p class="game-category">Adventure, Actions</p>
-            <p class="game-description">
-              Adventure in a snake cave with friends who were going on vacation
+        <div class="grid-game--2">
+          <div class="grid-game-img-2">
+            <img src="./assets/Photos/Rectangle 76.png" alt="" />
+          </div>
+          <div class="grid-game-content-2">
+            <h3>Adventure in snake <br />cave danger</h3>
+            <span>Adventure, Actions</span>
+            <p>
+              Adventure is a dangerous snake cave with <br />
+              friends who were going on vacation
             </p>
-            <button class="game-download bg-orange">
-              <a href="">Download</a>
-            </button>
+            <a class="grid-btn" href="#">Download</a>
           </div>
         </div>
-
-        <!-- game-3 -->
-        <div class="game">
-          <img src="./assets/Photos/Rectangle 77.png" alt="" />
-          <div>
-            <h3 class="game-heading">Super hero wearing spider mask</h3>
-            <p class="game-category">Strategy, Action</p>
-            <p class="game-description">
-              A superhero wearing a spider mask who helps many people in the
-              world
+        <div class="grid-game--3">
+          <div class="grid-game-img-3">
+            <img src="./assets/Photos/Rectangle 77.png" alt="" />
+          </div>
+          <div class="grid-game-content-3">
+            <h3>Super her wearing <br />spider mask</h3>
+            <span>Strategy, Actions</span>
+            <p>
+              A superhero wearing a spider mask who <br />
+              helps many people in the world
             </p>
-            <button class="game-download bg-orange">
-              <a href="">Download</a>
-            </button>
+            <a class="grid-btn" href="#">Download</a>
           </div>
         </div>
-
-        <!-- game-4 -->
-        <div class="game">
-          <img src="./assets/Photos/Rectangle 78.png" alt="" />
-          <div>
-            <h3 class="game-heading">Masked hero with a million powers</h3>
-            <p class="game-category">Adventure</p>
-            <p class="game-description">
-              Omongken is the best Lorem ipsum dolor sit amet consectetur elit.
+        <div class="grid-game--4">
+          <div class="grid-game-img-4">
+            <img src="./assets/Photos/Rectangle 78.png" alt="" />
+          </div>
+          <div class="grid-game-content-4">
+            <h3>Adventure in snake <br />cave danger</h3>
+            <span>Adventure, Actions</span>
+            <p>
+              Omongken is the best podcast that you is <br />
+              the best podcast that you can use
             </p>
-            <button class="game-download bg-orange">
-              <a href="">Download</a>
-            </button>
+            <a class="grid-btn" href="#">Download</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="most-played bg-black">
-      <h2 class="heading">Most Played Games Of The Year</h2>
-      <p class="description">
-        We have data on the most played games in this year and as a result,
-        games about battles and wars are very popular with gamers at this time,
-        so we recommend this game into your card to be used as your game.
-      </p>
-      <img
-        id="bg-text-img"
-        src="./assets/Icons/GAMES OF THE WORLD.svg"
-        alt=""
-      />
-      <div class="images">
-        <img src="./assets/Photos/Rectangle 17.png" alt="" />
-        <img src="./assets/Photos/Rectangle 18.png" alt="" />
-        <img src="./assets/Photos/Rectangle 90.png" alt="" />
-      </div>
-    </section>
+    <!-- Most Played Games Section -->
+    <section class="bg-dark-blue">
+      <div class="section-most-playedgame">
+        <h1>Most played Games</h1>
+        <h1>Of The Year</h1>
+        <img class="image--1" src="./assets/Photos/Rectangle 17.png" alt="" />
+        <img class="image--2" src="./assets/Photos/Rectangle 18.png" alt="" />
+        <img class="image--3" src="./assets/Photos/Rectangle 90.png" alt="" />
 
-    <!-- Call to action -->
-    <section class="cta bg-black">
-      <img class="cta-bg" src="./assets/Photos/Rectangle 606.png" alt="" />
-      <div class="cta-text">
-        <h2 class="heading">Have An Unforgettable Experience</h2>
-        <p class="description">
-          Have an unforgettable experience and play now to get attractive promos
+        <p>
+          We have data on the most played games this year and as a result, games
+          <br />
+          about battles and wars are very popular with gamers at this time, so
+          we recommend <br />this game into your cart to be used as your game.
         </p>
-        <button class="bg-orange"><a href="">Get Started</a></button>
+
+        <img class="gamesOf-world" src="./assets/Icons/GAMES OF THE WORLD.svg" alt=""/>
       </div>
     </section>
+    <div class="gamers">
+      <img src="./assets/Photos/Rectangle 606.png" alt="" />
+      <div class="gamers-content">
+        <h1>Have an Unforgettable Experience</h1>
+        <p>
+          Have an Unforgettable experience and play now to get attractive promos
+        </p>
+        <a href="#" class="gamers-btn">Get Started</a>
+      </div>
+    </div>
 
-    <footer class="bg-black">
-      <div class="footer-col-1">
-        <img src="./assets/Icons/Logo.svg" alt="" />
-        <p>Play a lot of games here and subscribe right away</p>
-        <div class="socials">
-          <img src="./assets/Icons/facebook.svg" alt="facebook" />
-          <img src="./assets/Icons/instagram.svg" alt="instagram" />
-          <img src="./assets/Icons/twitter.svg" alt="twitter" />
+    <!-- Footer Section -->
+    <footer class="bg">
+      <div class="footer">
+        <div class="footer-content">
+          <ul>
+            <li><img src="./assets/Icons/Logo.svg" alt="" /></li>
+            <li>Play lots of games here and <br />subscribe right away</li>
+            <li>
+              <div>
+                <img src="./assets/Icons/facebook.svg" alt="" />
+                <img src="./assets/Icons/instagram.svg" alt="" />
+                <img src="./assets/Icons/twitter.svg" alt="" />
+              </div>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h1>Article</h1></li>
+            <li>Crowdfunding</li>
+            <li>Website donations</li>
+            <li>Careers</li>
+            <li>Event Registrations</li>
+            <li>Newsrooms</li>
+          </ul>
+
+          <ul>
+            <li><h1>Leagues</h1></li>
+            <li>Our Story</li>
+            <li>Community driven</li>
+            <li>Our Customer</li>
+            <li>Expert support</li>
+          </ul>
+
+          <ul>
+            <li><h1>Team</h1></li>
+            <li>About us</li>
+            <li>FAQ</li>
+            <li>Privacy & Policy</li>
+            <li>Help</li>
+          </ul>
+
+          <ul>
+            <li><h1>Get in touch</h1></li>
+            <li>(704) 555-0127</li>
+          </ul>
         </div>
       </div>
-      <ul>
-        <li>Articles</li>
-        <li><a href="">Crowdfunding</a></li>
-        <li><a href="">Website donations</a></li>
-        <li><a href="">Career</a></li>
-        <li><a href="">Event registrations</a></li>
-        <li><a href="">Newsroom</a></li>
-      </ul>
-      <ul>
-        <li>Leagues</li>
-        <li><a href="">Our story</a></li>
-        <li><a href="">Community driver</a></li>
-        <li><a href="">Our customer</a></li>
-        <li><a href="">Expert support</a></li>
-      </ul>
-      <ul>
-        <li>Team</li>
-        <li><a href="">About us</a></li>
-        <li><a href="">FAQ</a></li>
-        <li><a href="">Privacy & Policy</a></li>
-        <li><a href="">Help</a></li>
-      </ul>
-      <ul>
-        <li>Get in touch</li>
-        <li><a href="">(704) 555-0127</a></li>
-      </ul>
     </footer>
   </body>
 </html>
