@@ -1,0 +1,224 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: hsl(240, 3%, 6%);
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.header{
+  background-image: url(./Photos/mainImage.png), url(./Photos/onEar.png);
+  background-repeat: no-repeat;
+  background-position: 7% -150px, 70% 15%;
+  height: 100vh;
+}
+
+/* Navbar Section */
+.navbar-container{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.btn{
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: hsl(240, 5%, 12%);
+}
+
+/* Hero Section */
+.right-section{
+  width: 60%;
+  margin-top: 10rem;
+  margin-left: auto;
+  padding-left: 3rem;
+}
+.right-section h1{
+  font-size: 3rem;
+}
+.right-section p{
+  width: 60%;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+.right-section a{
+  background-color: hsl(240, 5%, 12%);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+.right-section a span {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.right-section img {
+  margin-right: 1rem;
+}
+
+/* Logos Section */
+.logos {
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Specification Section */
+.specs {
+  background-image: url(./Icons/specsLogo.png), url(./Photos/specsImage.png);
+  background-repeat: no-repeat;
+  background-position: center top, 70% 45%;
+  margin: 3rem 0;
+  height: 100vh;
+  padding-top: 5rem;
+  padding-left: 15rem;
+}
+.specs div,img,h4,p{
+  margin: 0;
+}
+.specs div {
+  margin: 3rem 0;
+}
+.specs div:nth-child(1),
+.specs div:nth-child(4) {
+  padding-left: 2rem;
+}
+
+/* Case Section */
+.case{
+  background-image: url(./Icons/caseLogo.png), url(./Photos/caseImage.png);
+  background-repeat: no-repeat;
+  background-position: center top, 30% 45%;
+  margin: 3rem 0;
+  height: 100vh;
+  padding-top: 5rem;
+  padding-left: 15rem;
+}
+.case p{
+  padding-top: 10rem;
+  padding-left: 20rem;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+}
+.case .btn{
+  margin-left: 20rem;
+}
+.case .btn img{
+  margin-right: 1rem;
+}
+.offer {
+  background-color: hsl(200, 6%, 10%);
+  border-radius: 1rem;
+  padding: 1rem 10rem;
+  margin: 5rem 0;
+}
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+.offer-container p{
+  padding: 1rem 0;
+}
+.btn-black{
+  background-color: black;
+  color: white;
+  padding: 1rem 3rem;
+  background-image: url(./Icons/shoppingBag.png);
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0.5rem;
+  background-position: center left 10%;
+}
+
+/* Style Section */
+.style{
+  background-image: url(./Icons/productLogo.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.style-container{
+  padding-top: 15rem;
+  display: grid;
+  width: 60%;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card-1{
+  background-color: hsl(200, 6%, 10%);
+  width: 159px;
+  height: 165px;
+  background-image: url(./Icons/shoppingBag.png);
+  background-repeat: no-repeat;
+  background-position: bottom 2rem right 1rem;
+  margin: 2rem 0;
+  padding-left: 1rem;
+}
+.card-1 img{
+  width: 50%;
+  position: relative;
+  top: -42px;
+  left: 35px;
+}
+
+/* Footer Section */
+.footer{
+  padding: 2rem 0;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container li{
+  margin: 1rem 0;
+}
+.footer-input{
+  margin: 2rem 0;
+  background-color: hsl(200, 6%, 10%);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+.footer li{
+  color: black;
+  opacity: 50%;
+}
+.footer-input button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-image: url(./Icons/rightArrow.png);
+  background-repeat: no-repeat;
+  background-position: center left 0.5rem;
+}
+.footer-input input{
+  background-color: hsl(200, 6%, 10%);
+  color: white;
+  border: none;
+}
