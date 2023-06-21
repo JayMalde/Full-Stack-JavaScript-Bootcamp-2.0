@@ -1,8 +1,15 @@
 # All projects
+
+<details>
+    <summary>Article Assignments</summary>
+    
+</details>
+
 <details>
     <summary>HTML Assignments</summary>
     
 </details>
+
 <details>
     <summary>CSS Assignments</summary>
     <a href="https://jaymalde.github.io/Full-Stack-JavaScript-Bootcamp-2.0/CSS-Assignments/Project-1-Calm/index.html">Project 1 - Calm</a><br>
@@ -17,4 +24,9 @@
     <a href="https://jaymalde.github.io/Full-Stack-JavaScript-Bootcamp-2.0/CSS-Assignments/Project-10-Real-Estate-Landing-Page/index.html">Project 10 - Real Estate Landing Page</a><br>
     <a href="https://jaymalde.github.io/Full-Stack-JavaScript-Bootcamp-2.0/CSS-Assignments/Project-11-Beats-Landing-Page/index.html">Project 11 - Beats Landing Page</a><br>
     <a href="https://jaymalde.github.io/Full-Stack-JavaScript-Bootcamp-2.0/CSS-Assignments/Project-12-Analyst-Landing-Page/index.html">Project 12 - Analyst Landing Page</a><br>
+</details>
+
+<details>
+    <summary>Tailwind Assignments</summary>
+    
 </details>
