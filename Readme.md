@@ -5,9 +5,10 @@
 </details>
 <details>
     <summary>CSS Assignments</summary>
-    ![Project 1 - Calm](./CSS-Assignments/Project-1-Calm/index.html "Project 1 - Calm")
-    [Project 2 - Medifine](./CSS-Assignments/Project-2-Medifine/index.html "Project 2 - Medifine")
-    [Project 3 - Justice](./CSS-Assignments/Project-3-Justice/index.html "Project 3 - Justice")
+    <a href="./CSS-Assignments/Project-1-Calm/index.html">Project 1 - Calm</a><br>
+    <a href="./CSS-Assignments/Project-2-Medifine/index.html">Project 2 - Medifine</a><br>
+    <a href="./CSS-Assignments/Project-3-Justice/index.html">Project 3 - Justice</a><br>
+    [Project 3 - Justice]( "Project 3 - Justice")
     [Project 4 - SEO Master](./CSS-Assignments/Project-4-SEO-Master/index.html "Project 4 - SEO Master")
     [Project 5 - Crypto Market](./CSS-Assignments/Project-5-Crypto-Market/index.html "Project 5 - Crypto Market")
     [Project 6 - Fashion Hub](./CSS-Assignments/Project-6-Fashion-Hub/index.html "Project 6 - Fashion Hub")
