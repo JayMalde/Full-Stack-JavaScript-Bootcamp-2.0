@@ -2,7 +2,14 @@
 
 <details>
     <summary>Article Assignments</summary>
-    
+    <a href="https://jaymalde.hashnode.dev/introduction-to-web-html">Article 1 - Web</a><br>
+    <a href="https://jaymalde.hashnode.dev/css-selectors-pseudo-selectors">Article 2 - Selectors</a><br>
+    <a href="https://jaymalde.hashnode.dev/css-positions">Article 3 - Positions</a><br>
+    <a href="https://jaymalde.hashnode.dev/css-flexbox">Article 4 - Flexbox</a><br>
+    <a href="https://jaymalde.hashnode.dev/css-grid">Article 5 - Grid</a><br>
+    <a href="https://jaymalde.hashnode.dev/css-media-queries">Article 6 - Media Queries</a><br>
+    <a href="https://jaymalde.hashnode.dev/create-write-on-readmemd-markdown-file">Article 7 - Markdown</a><br>
+    <a href="https://jaymalde.hashnode.dev/javascript-arrays">Article 8 - Javascript Arrays</a><br>
 </details>
 
 <details>
