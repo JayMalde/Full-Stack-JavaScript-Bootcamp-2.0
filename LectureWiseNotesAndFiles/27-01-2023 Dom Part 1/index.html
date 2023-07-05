@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Javascript</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="fsjs" id="fsjs2"><span>>Lorem,</span ipsum dolor.</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+    </ul>
+    <ul>
+        <li class="tech">Node</li>
+        <li class="tech">React</li>
+        <li class="tech">MongoDB</li>
+    </ul>
+    <script>
+        // console.log(window.document);
+        // console.log(window.document.head);
+        // console.log(window.document.body);
+        // console.log(window.document.body.firstChild);
+        // console.log(window.document.body.firstElementChild);
+        // console.log(window.document.body.firstElementChild);
+
+        // Capture ID
+        console.log(document.getElementById("fsjs2").innerText);
+        console.log(document.getElementById("fsjs2").innerHTML);
+
+        // Class
+        let techList = document.getElementsByClassName("tech");
+        console.log(techList[0]);
+        techList[1] = 'Jay';
+        techList[2] = '<h1>Jay</h1>';
+        console.log(techList[0]);
+        console.log(techList);
+
+        // By Tag
+        // By TagName
+
+        // Generally People dont use ID or Class slector instead querySelector
+
+        let h1 = document.querySelector(".fsjs").innerText;
+        console.log(h1);
+
+        let p = document.querySelector("p").style.backgroundColor = red;
+
+        //alert("Hello World");
+
+        //setTimeout(()=>{
+        //    alert("hello");
+        //},2000);
+
+        /*let val = confirm("Are you Sure?");
+        console.log(val);
+        if(val){
+            document.querySelector("h1").innerText="He/She pressed Ok";
+            console.log("He/She pressed Ok");
+        }
+        else{
+            document.querySelector("h1").innerText="He/She pressed Ok";
+            console.log("He/She pressed Ok");
+        }*/
+
+        let value1 = prompt("Solve this 20 - 10");
+        if(value1==10){
+            document.querySelector("h1").innerText="Success";
+        }else{
+            document.querySelector("h1").innerText="Failed";
+        }
+
+    </script>
+</body>
+</html>
