@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS Bootcamp</h1>
+    
+    <ul>
+    </ul>
+    
+    <button onclick="maths()" type="submit" id="button">Submit</button>
+    <p id="button-response"></p>
+    <script>
+        const list=`<li>Name 1</li><li>Name 2</li><li>Name 3</li>`;
+        const ul=document.querySelector("ul");
+        ul.innerHTML = list;
+
+        let title = document.createElement("h1");
+        title.className = "title";
+        title.style.fontSize = "25px";
+        title.style.color = "green";
+        title.textContent = "Creating new Element using Document";
+        console.log(title);
+        document.body.appendChild(title);
+
+        //Assignment
+        //document.removeChild(title);
+
+        for(let i=0;i<3;i++)
+        {
+            let para = document.createElement("p");
+            para.className = "FSJS";
+            para.style.fontSize = "16px";
+            para.textContent = i;
+            document.body.appendChild(para);
+        }
+
+        function maths(){
+            const value = prompt("Solve this 50-30");
+            if(value==30)
+            {
+                document.getElementById("button-response").innerText = "Success Redirect";
+                document.getElementById("button").style.backgroundColor = "green";
+            }
+            else
+            {
+                document.getElementById("button-response").innerText = "Failed Try Again";
+                document.getElementById("button").style.backgroundColor = "red";
+            }
+        }
+    </script>
+</body>
+</html>
