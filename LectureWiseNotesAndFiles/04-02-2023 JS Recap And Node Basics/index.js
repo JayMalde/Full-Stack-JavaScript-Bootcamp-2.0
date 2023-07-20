@@ -23,4 +23,12 @@
 // Ternary Operator
 
 // Arrays - 2 ways to declare arrays
-// 
+// Array & Methods
+// String & String Methods
+
+// Math
+// Date
+// Loops
+// for-of = Arrays and for-in = Objects
+
+// Functions
