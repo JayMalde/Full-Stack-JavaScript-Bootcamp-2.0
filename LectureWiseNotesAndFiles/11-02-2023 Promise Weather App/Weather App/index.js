@@ -36,4 +36,6 @@ const getData = async (event) => {
     temperature.innerHTML = data.current.temp_c;
     logoImage.src = data.current.condition.icon;
     weatherStatus.innerHTML = data.current.condition.text;
+
+    // Homework
 };
