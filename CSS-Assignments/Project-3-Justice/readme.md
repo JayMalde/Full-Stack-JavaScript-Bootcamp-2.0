@@ -8,7 +8,8 @@
 <br>
 
 ## Output
-![Project 3](./output.png)
+![Project 3](./Output.png)
+<br>
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0B5FBB
 [linkedin-url]: https://www.linkedin.com/in/jaymalde/
