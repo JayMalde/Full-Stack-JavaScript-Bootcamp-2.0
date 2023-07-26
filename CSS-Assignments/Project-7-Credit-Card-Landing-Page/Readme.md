@@ -1,4 +1,4 @@
-# Project 7 - Crdeit Card Landing Page
+# Project 7 - Credit Card Landing Page
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Hashnode][hashnode-shield]][hashnode-url]
